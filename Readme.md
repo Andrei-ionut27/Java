@@ -1,1 +1,1 @@
-Instructiuni Intellij IDEA
+Instructiuni Java
