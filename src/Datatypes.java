@@ -27,7 +27,7 @@ public class Datatypes {
         // boolean = adevarat sau fals
         boolean inmatriculata = false;
 
-        // char = un singur caracter @, 2, b, r
+        // char = un singur caracter @, 2, b, r,
         char nota = 'A';
     }
 }
