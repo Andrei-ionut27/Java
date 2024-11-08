@@ -68,7 +68,7 @@ public class Operatori_Date_variabile {
         // iniializare
         prenume = "Andrei";
         nume = "Florea";
-        int varsta = 32;
+        int varsta = 33;
         // concatenare de stringuri
         System.out.println(prenume + " " + nume + " cu varsta de " + varsta + " de ani");
 
