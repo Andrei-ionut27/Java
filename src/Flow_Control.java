@@ -5,22 +5,25 @@ public class Flow_Control {
         //Flow control i if else
         //Evalueaza conditii si bifurca codul in funtie de rezultat
 
-//        System.out.println("Pornim radioul");
-//        boolean piesa_faina = true;// invat calculatorul daca piesa e faina sau nu
-//        // daca imi place piesa, dau m-ai tare
-//        if (piesa_faina == true) {
-//            System.out.println("Dau m-ai tare radioul");
-//            System.out.println("Fredonez piesa");
-//        }
-//        System.out.println("Oprim radioul");
-//        //if else
-//        int nr = 4;
-//        if ((nr & 2) == 0) {
-//            System.out.println("Par");
-//        } else {
-//            System.out.println("impar");
-//        }
+        System.out.println("Pornim radioul");
+        boolean piesa_faina = true;// invat calculatorul daca piesa e faina sau nu
+        // daca imi place piesa, dau m-ai tare
+        if (piesa_faina == true) {
+            System.out.println("Dau m-ai tare radioul");
+            System.out.println("Fredonez piesa");
+        }
+        System.out.println("Oprim radioul");
+
+        //if else
+        int nr = 3;
+        if ((nr & 2) == 0) {
+            System.out.println("Par");
+        } else {
+            System.out.println("impar");
+        }
+
         //if, else if, else
+
 //        Scanner sc = new Scanner(System.in);
 //        System.out.println("Introdu Ora");
 //        int ora = sc.nextInt();
@@ -38,6 +41,7 @@ public class Flow_Control {
 //            System.out.println("Ora invalida");
 //        }
         // <0 viteza invalida, 0 stationeaza, <==50 localitate, <==90 drum judetean, <==130 autostrada
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Introdu Viteza");
         int viteza = sc.nextInt();
@@ -75,7 +79,7 @@ public class Flow_Control {
 //                System.out.println("Optiune invalida");
 //
 //        }
-
-
+//
+//
     }// inchide funtia main
 }// inchide clasa
