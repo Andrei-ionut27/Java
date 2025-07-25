@@ -63,23 +63,23 @@ public class Flow_Control {
 
         //flow control
         //switch - se foloseste cand stim valorile posibile
-//        System.out.println("Alege optiunea");
-//        int optiunea = sc.nextInt();
-//        switch (optiunea) {
-//            case 0:
-//                System.out.println("Meniu anterior");
-//                break;
-//            case 1:
-//                System.out.println("Ati ales limba romana");
-//                break;
-//            case 2:
-//                System.out.println("Ati ales limba engleza");
-//                break;
-//            default:
-//                System.out.println("Optiune invalida");
-//
-//        }
-//
-//
-    }// inchide funtia main
-}// inchide clasa
+        System.out.println("Alege optiunea");
+        int optiunea = sc.nextInt();
+        switch (optiunea) {
+            case 0:
+                System.out.println("Meniu anterior");
+                break;
+            case 1:
+                System.out.println("Ati ales limba romana");
+                break;
+            case 2:
+                System.out.println("Ati ales limba engleza");
+                break;
+            default:
+                System.out.println("Optiune invalida");
+
+        }
+
+
+    }     // inchide funtia main
+}     // inchide clasa
